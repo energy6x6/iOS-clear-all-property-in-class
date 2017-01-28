@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Config.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Config *conf = [[Config alloc] initWithUserName:@"User"
+                                              email:@"user@gmail.com"
+                                              ident:123
+                                         sessionKey:@"xxx-123-324-567-33-45-xb"
+                                              token:@"24325436547653457696787657635443"
+                                         countScore:345
+                                       isSubscriber:YES];
+    
+    [conf resetProperties];
+    
 }
 
 
