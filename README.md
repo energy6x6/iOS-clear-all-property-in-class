@@ -4,6 +4,7 @@ Objective-C: Clear all property in your class automatically.
 This project help you to understand how to reset properties automatically.
 
 Result:
+```
 ---
 2017-01-28 23:20:18.845463 Addon_clear-all-property-in-class[2396:909949] [berore]XXXresetProperties => [NSTaggedPointerString] email=user@gmail.com
 2017-01-28 23:20:18.845719 Addon_clear-all-property-in-class[2396:909949] [after]XXXresetProperties => [NSTaggedPointerString] email=(null)
@@ -23,3 +24,4 @@ Result:
 2017-01-28 23:20:18.848364 Addon_clear-all-property-in-class[2396:909949] [berore]XXXresetProperties => [__NSCFString] isSubscriber=1
 2017-01-28 23:20:18.848617 Addon_clear-all-property-in-class[2396:909949] [after]XXXresetProperties => [__NSCFString] isSubscriber=0
 ---
+```
