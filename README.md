@@ -2,6 +2,7 @@
 Objective-C: Clear all property in your class automatically.
 
 This project help you to understand how to reset properties automatically.
+
 Property:
 ```objc
 // -- There are many properies --
